@@ -91,7 +91,7 @@ print("All chunks are docked!")
 ```
 
 ``` bash
-# Merging all the score files of the docking to one file
+# Merging all docking score files into a single file
 (echo -e "Title\tFRED Chemgauss4 score"; tail -q -n +2 *.txt | sort -k2 -n) > all_scores_sorted.txt
 ```
 ## ROCS 
@@ -111,7 +111,7 @@ grep -E "Hit1|Hit2|Hit3|Hit4|Hit5|Hit6|Hit7|Hit8|Hit9|Hit10" Enamine_Fdrug.smi >
 ```
 ### Flipper
 ```bash
-# Runnen in Enamine_Flipper/
+# Running in Enamine_Flipper/
 flipper -in top_10_molecules.smi -out top_10_molecules_FLip.ism -prefix stereo_top_10_flip -warts true -progress percent -enumBondSpecifiedStereo true
 
 # Molcount
@@ -119,7 +119,7 @@ python3 molcount.py top_10_molecules_FLip.ism
 ```
 ### Tautomers
 ```bash
-# Runnen in Enamine_Taut/
+# Running in Enamine_Taut/
 tautomers -in top_10_molecules_FLip.ism -out top_10_molecules_FLipTaut.ism -warts true -maxgenerated 5 -pkanorm true
 
 # Molcount
