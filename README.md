@@ -1,5 +1,5 @@
 # Project-Computer-Drug-Discovery
-A workflow created using tools from the OpenEye Software. This workflow focused on finding an inhibitor for the enzyme Tyrosine Decarboxylase.
+A workflow created using tools from the OpenEye Software. This workflow focused on finding an inhibitor for the enzyme Tyrosine Decarboxylase of E.faecalis.
 
 # Requirements
 - OpenEye license
@@ -21,7 +21,7 @@ The receptor preparation consisted of:
 1. building loops and adding hydrogen atoms with SPRUCE 
 2. MakeReceptor (to visualize the receptor)
 
-# Input and output formats used
+# File Formats Used for Input and Output
 | Tool | Input | Output |
 |------|--------|--------|
 | Filter | input.sdf | filtered.sdf |
