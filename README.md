@@ -21,7 +21,7 @@ The receptor preparation consisted of:
 1. building loops and adding hydrogen atoms with SPRUCE 
 2. MakeReceptor (to visualize the receptor)
 
-# File Formats Used for Input and Output
+## File Formats Used for Input and Output
 | Tool | Input | Output |
 |------|--------|--------|
 | Filter | input.sdf | filtered.sdf |
@@ -32,3 +32,6 @@ The receptor preparation consisted of:
 | SPRUCE | proetin.db | receptor.oedu |
 
 Open Babel (OBabel) was used to convert the filtered output file into SMILES format. 
+
+## Authors
+Ayça Korkut and Aisha Salad - Avans University of Applied Sciences, School of Life Sciences and Technology
