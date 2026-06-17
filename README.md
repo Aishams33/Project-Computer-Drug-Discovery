@@ -1,9 +1,12 @@
 # Project-Computer-Drug-Discovery
 A workflow created using tools from the OpenEye Software. This workflow focused on finding an inhibitor for the enzyme Tyrosine Decarboxylase.
 
-# Virtual Screening Workflow using OpenEye
+# Requirements
+- OpenEye license
+- Linux, macOS of Windows
+- Command line 
 
-## Project Description
+## Virtual screening workflow using OpenEye
 
 In this project, a virtual screening was performed using OpenEye software. The workflow consisted of:
 1. Molecular filtration
@@ -21,4 +24,4 @@ In this project, a virtual screening was performed using OpenEye software. The w
 | OMEGA | tautomers.ism | omega.oeb.gz |
 | ROCS | omega_rocs.oeb.gz | rocs.oeb.gz |
 
-Obabel is used to convert the filtered.sdf to filtered.smi
+Open Babel (OBabel) was used to convert the filtered output file into SMILES format. 
